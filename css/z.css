@@ -1,0 +1,24 @@
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.h {
+  color: #F40;
+}
