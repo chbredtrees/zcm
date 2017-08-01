@@ -43,7 +43,10 @@ legend,
 img,
 div,
 input,
-button {
+button,
+section,
+header,
+footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -54,6 +57,14 @@ img {
 }
 img {
   display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
 }
 address,
 caption,
@@ -107,19 +118,17 @@ table {
 }
 body {
   color: #333;
-  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  font: 12px/1 "微软雅黑", "Arial Narrow", HELVETICA;
   background: #fff;
 }
 a {
-  color: #666;
   text-decoration: none;
-}
-a:visited {
-  color: #666;
 }
 a:hover,
 a:active,
 a:focus {
-  color: #ff8400;
   text-decoration: none;
+}
+body {
+  background-color: #f9f9f9;
 }

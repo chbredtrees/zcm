@@ -13,7 +13,187 @@
 	</head>
 	<body>
 		<header >
-			
+			<div class="logo">
+				<a href="###">
+					<img src="images/logo.png"/>
+					<h1>给我招财的猫</h1>
+				</a>
+			</div>
+			<div class="login">
+				<a href="###">注册</a>
+				|
+				<a href="###">登录</a>
+			</div>
 		</header>
+		<section class="topnav">
+			<a href="###" class="current">首页</a>
+			<a href="###">我要投资</a>
+			<a href="###">账户中心</a>
+		</section>
+		<!--轮播图-->
+		<div id='slider'  class='swipe'>
+			<div class='swipe-wrap'>
+				<div><img src="images/slider1.jpg"/></div>
+				<div><img src="images/slider2.jpg"/></div>
+				<!--<div><img src="images/slider3.jpg"/></div>-->
+			</div>
+			<div class="indirector">
+		    	<span class="on"></span>
+		    	<span class=""></span>
+		    </div>
+		</div>
+		<!--用户导航-->
+		<section class="usernav">
+			<a href="###">
+				<i class="iconfont icon-lock-fill"></i>
+				<p>安全保障</p>
+			</a>
+			<a href="###">
+				<i class="iconfont icon-jiaruwomen"></i>
+				<p>关于我们</p>
+			</a>
+			<a href="###">
+				<i class="iconfont icon-xinshouzhiyin"></i>
+				<p>新手指引</p>
+			</a>
+			<a href="###">
+				<i class="iconfont icon-wenti"></i>
+				<p>帮助中心</p>
+			</a>
+		</section>
+		<!--热门产品-->
+		<section class="hotpro">
+			<div class="title">
+				<div>
+					<img src="images/home_ico_09.png" class="hot"/>
+					<h3>热门产品</h3>
+				</div>
+				<a href="###">更多</a>
+			</div>
+			<ul class="prolist">
+				<li class="item">
+					<div class="itemtle">
+						<h4>第xxx号2期</h4>
+						<p><span>返现金</span><i class="iconfont icon-vip"></i></p>
+					</div>
+					<div class="itemyl">
+						<div class="lv">
+							9.2%
+							<span>+0.5%</span>
+						</div>
+						<div class="date">
+							<p class="day"><strong>180</strong>天</p>
+							<p>投资期限</p>
+						</div>
+						<img src="images/data3.png" alt="" />
+					</div>
+				</li>
+				<li class="item">
+					<div class="itemtle">
+						<h4>第xxx号2期</h4>
+						<p><span>返现金</span><i class="iconfont icon-vip"></i></p>
+					</div>
+					<div class="itemyl">
+						<div class="lv">
+							9.2%
+							<span>+0.5%</span>
+						</div>
+						<div class="date">
+							<p class="day"><strong>180</strong>天</p>
+							<p>投资期限</p>
+						</div>
+						<img src="images/data3.png" alt="" />
+					</div>
+				</li>
+				<li class="item">
+					<div class="itemtle">
+						<h4>第xxx号2期</h4>
+						<p><span>返现金</span><i class="iconfont icon-vip"></i></p>
+					</div>
+					<div class="itemyl">
+						<div class="lv">
+							9.2%
+							<span>+0.5%</span>
+						</div>
+						<div class="date">
+							<p class="day"><strong>180</strong>天</p>
+							<p>投资期限</p>
+						</div>
+						<img src="images/data3.png" alt="" />
+					</div>
+				</li>
+			</ul>
+		</section>
+		<!--新闻动态-->
+		<section class="new">
+			<div class="title">
+				<div>
+					<img src="images/home_ico_10.png" class="hot"/>
+					<h3>企业动态</h3>
+				</div>
+				<!--<a href="###">更多</a>-->
+			</div>
+			<ul class="newslist">
+				<li class="item">
+					<a href="###"><img src="images/new1.jpg" alt="" /></a>
+					<div>
+						<a href="###"><h4>春日梦想 节日专享</h4></a>
+						<p>
+							<span>来源：给我招财的猫</span>
+							<time>2017-08-01</time>
+						</p>
+					</div>
+				</li>
+				<li class="item">
+					<a href="###"><img src="images/new1.jpg" alt="" /></a>
+					<div>
+						<a href="###"><h4>春日梦想 节日专享</h4></a>
+						<p>
+							<span>来源：给我招财的猫</span>
+							<time>2017-08-01</time>
+						</p>
+					</div>
+				</li>
+				<li class="item">
+					<a href="###"><img src="images/new1.jpg" alt="" /></a>
+					<div>
+						<a href="###"><h4>春日梦想 节日专享</h4></a>
+						<p>
+							<span>来源：给我招财的猫</span>
+							<time>2017-08-01</time>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<p class="version">
+				<a href="###">触屏版</a>
+				|
+				<a href="###">电脑版</a>
+				|
+				<a href="###">APP下载</a>
+			</p>
+			<p class="copyright">&copy;给我招财的猫 京ICP备00001号</p>
+		</footer>
+		<script type="text/javascript" src="js/zepto/zepto.js" ></script>
+		<script type="text/javascript" src="js/swipe.js" ></script>
+		<script type="text/javascript">
+			window.mySwipe = new Swipe(document.getElementById('slider'), {
+				 startSlide: 0,//第几张开始
+				 speed: 400,//动画滚动速度
+				 auto: 0,//是否自动播放，0时不会自动播放
+				 continuous: true,//无限循环
+				 disableScroll: false,
+				 stopPropagation: false,
+				 callback: function(index, elem) {
+				 	$('.indirector span').eq(index%2).addClass('on').siblings().removeClass('on');
+//				 	console.log(index,elem);
+				 },
+				 transitionEnd: function(index, elem) {
+//				 	console.log(index,elem);
+				 }
+			});
+		</script>
 	</body>
 </html>

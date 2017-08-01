@@ -17,9 +17,10 @@
   a{text-decoration:none;}
 }
 .reset-sina(){
-  html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,div,input,button{ margin:0; padding:0; box-sizing: border-box;}
+  html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,div,input,button,section,header,footer{ margin:0; padding:0; box-sizing: border-box;}
   fieldset, img { border:none; }
   img{display: block;}
+  h1,h2,h3,h4,h5,h6{font-weight: normal;}
   address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
   ul, ol { list-style:none; }
   input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
@@ -30,10 +31,10 @@
   textarea { resize:none; }
   input,textarea{background: none; border: none;}
   table { border-collapse:collapse; }
-  body { color:#333; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff; }
-  a { color:#666; text-decoration:none; }
-  a:visited { color:#666; }
-  a:hover, a:active, a:focus { color:#ff8400; text-decoration:none; }
+  body { color:#333; font:12px/1 "微软雅黑","Arial Narrow",HELVETICA; background:#fff; }
+  a { text-decoration:none; }
+  a:visited {  }
+  a:hover, a:active, a:focus {  text-decoration:none; }
 }
 //去除a和label的虚线
 .remove_dotted(){
@@ -502,4 +503,16 @@
 //自定义工具
 @baseWidth:100;
 .fs(@v){font-size: @v/@baseWidth*1rem}
-.h(@v){height: @v/@baseWidth*1rem}
+.h(@v){height: @v/@baseWidth*1rem;}
+.w(@v){width: @v/@baseWidth*1rem;}
+.ml(@v){margin-left: @v/@baseWidth*1rem;}
+.mr(@v){margin-right: @v/@baseWidth*1rem;}
+.mb(@v){margin-bottom: @v/@baseWidth*1rem;}
+.mt(@v){margin-top: @v/@baseWidth*1rem;}
+.pl(@v){padding-left: @v/@baseWidth*1rem;}
+.pr(@v){padding-right: @v/@baseWidth*1rem;}
+.pt(@v){padding-top:@v/@baseWidth*1rem}
+.pb(@v){padding-bottom:@v/@baseWidth*1rem}
+.lh(@v){line-height: @v/@baseWidth*1rem;}
+.plr(@v){padding:0 @v/@baseWidth*1rem;}
+.pd(@v){padding:@v/@baseWidth*1rem;}
