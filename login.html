@@ -80,7 +80,15 @@
 			$('.cover').on('tap',function(){
 				$('#menu,.cover').removeClass('on');
 			})
-			
+			//登录
+			$('#phone').on('focus',function(){
+				$(this).attr('placeholder','手机号是您的登录账号')
+			});
+			$('#phone').on('blur',function(){
+				if($(this).attr('placeholder')=='手机号是您的登录账号'){
+					$(this).attr('placeholder','请输入手机号')
+				}
+			});
 		</script>
 	</body>
 </html>
