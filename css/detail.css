@@ -225,7 +225,8 @@ footer .copyright {
 }
 .lv {
   height: 2.22rem;
-  background: linear-gradient(to bottom, #ff3c00 0%, #d80607 100%);
+  background: #d80607;
+  background: linear-gradient(to bottom, #ff3c00, #d80607);
 }
 .lv p {
   text-align: center;
