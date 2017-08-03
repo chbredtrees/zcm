@@ -22,11 +22,11 @@
 			<div class="login">
 				<a href="###">注册</a>
 				|
-				<a href="###">登录</a>
+				<a href="login.html">登录</a>
 			</div>
 		</header>
 		<section class="topnav">
-			<a href="###" class="current">首页</a>
+			<a href="/" class="current">首页</a>
 			<a href="###">我要投资</a>
 			<a href="###">账户中心</a>
 		</section>
@@ -56,7 +56,7 @@
 				<i class="iconfont icon-xinshouzhiyin"></i>
 				<p>新手指引</p>
 			</a>
-			<a href="###">
+			<a href="help.html">
 				<i class="iconfont icon-wenti"></i>
 				<p>帮助中心</p>
 			</a>
@@ -72,21 +72,23 @@
 			</div>
 			<ul class="prolist">
 				<li class="item">
-					<div class="itemtle">
-						<h4>第xxx号2期</h4>
-						<p><span>返现金</span><i class="iconfont icon-vip"></i></p>
-					</div>
-					<div class="itemyl">
-						<div class="lv">
-							9.2%
-							<span>+0.5%</span>
+					<a href="detail.html">
+						<div class="itemtle">
+							<h4>第xxx号2期</h4>
+							<p><span>返现金</span><i class="iconfont icon-vip"></i></p>
 						</div>
-						<div class="date">
-							<p class="day"><strong>180</strong>天</p>
-							<p>投资期限</p>
+						<div class="itemyl">
+							<div class="lv">
+								9.2%
+								<span>+0.5%</span>
+							</div>
+							<div class="date">
+								<p class="day"><strong>180</strong>天</p>
+								<p>投资期限</p>
+							</div>
+							<img src="images/data3.png" alt="" />
 						</div>
-						<img src="images/data3.png" alt="" />
-					</div>
+					</a>
 				</li>
 				<li class="item">
 					<div class="itemtle">
@@ -182,7 +184,7 @@
 			window.mySwipe = new Swipe(document.getElementById('slider'), {
 				 startSlide: 0,//第几张开始
 				 speed: 400,//动画滚动速度
-				 auto: 0,//是否自动播放，0时不会自动播放
+				 auto: 2000,//是否自动播放，0时不会自动播放
 				 continuous: true,//无限循环
 				 disableScroll: false,
 				 stopPropagation: false,

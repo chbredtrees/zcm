@@ -2,6 +2,91 @@
 
 
 .reset-sina();
+//html{font-size: 100px;}
 body{
     background-color: #f9f9f9;
+}
+header{
+    position: relative;
+    background-color: #fa3432;
+    z-index: 10;
+    .hnav{
+        .h(94);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #FFF;
+        .plr(30);
+        .fs(40);
+        .iconfont{.fs(40); color: #FFF;}
+        .icon-fanhui{.fs(50);}
+    }  
+    .menu{
+        position: absolute;
+        width: 100%;
+        .top(94);
+        background-color: #FFF;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        .ptb(20);
+        .item{
+            .h(80);
+            width: 25%;
+            border-left: 1px solid #fa3432;
+            &:nth-child(1){border-left: none;}
+            .iconfont{
+                color: #fa3432;
+                display: block;
+                margin: 0 auto;
+                .w(34);
+                .h(34);
+                .fs(34);
+            }
+            span{
+                display: block;
+                color: #fa3432;
+                text-align: center;
+                .fs(24);
+                .lh(46);
+            }
+        }
+        
+    }
+}
+.cover{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5;
+}
+.menu.on{
+    display: flex;
+}
+.cover.on{
+    display: block;
+}
+
+footer{
+    .pt(45);
+    background-color: #FFF;
+    border-top: 1px solid #e6e6e5;
+    .h(165);
+    .version{
+        text-align: center;
+        .fs(28);
+        color: #494848;
+        a{color: #494848;}
+    }
+    .copyright{
+        .fs(28);
+        color: #9A9B9C;
+        text-align: center;
+        .mt(22);
+    }
 }

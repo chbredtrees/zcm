@@ -223,3 +223,78 @@ footer .copyright {
   text-align: center;
   margin-top: 0.22rem;
 }
+.hlep {
+  margin-bottom: 0.3rem;
+  padding: 0 0.3rem;
+}
+.hlep ul {
+  padding-top: 0.15rem;
+}
+.hlep li {
+  margin-bottom: 0.1rem;
+}
+.hlep .hp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 0.75rem;
+}
+.hlep .hp .title {
+  font-size: 0.25rem;
+  color: #4c4b4b;
+}
+.hlep .hp p {
+  display: flex;
+  align-items: center;
+}
+.hlep .hp p .icon {
+  width: 0.58rem;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  text-align: center;
+  border-radius: 30%;
+  background-color: #fa9a33;
+  margin-right: 0.21rem;
+}
+.hlep .hp p .iconfont {
+  font-size: 0.3rem;
+  color: #FFF;
+}
+.hlep .hp .gt {
+  font-size: 0.3rem;
+  color: #fa8b12;
+  font-style: normal;
+}
+.hotline {
+  height: 1.28rem;
+  background-color: #FFF;
+  padding: 0 0.3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.23rem;
+}
+.hotline .iconline {
+  display: block;
+  width: 0.78rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  background-color: #22cfd8;
+  border-radius: 30%;
+  margin-right: 0.28rem;
+}
+.hotline .iconline .iconfont {
+  font-size: 0.4rem;
+  color: #FFF;
+}
+.hotline .phone {
+  font-size: 0.24rem;
+  margin-bottom: 0.15rem;
+}
+.hotline .phone span {
+  color: #009ecc;
+}
+.hotline .jobtime {
+  font-size: 0.18rem;
+  color: #9d9c9c;
+}

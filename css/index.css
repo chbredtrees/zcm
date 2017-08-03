@@ -133,6 +133,97 @@ body {
   background-color: #f9f9f9;
 }
 header {
+  position: relative;
+  background-color: #fa3432;
+  z-index: 10;
+}
+header .hnav {
+  height: 0.94rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFF;
+  padding: 0 0.3rem;
+  font-size: 0.4rem;
+}
+header .hnav .iconfont {
+  font-size: 0.4rem;
+  color: #FFF;
+}
+header .hnav .icon-fanhui {
+  font-size: 0.5rem;
+}
+header .menu {
+  position: absolute;
+  width: 100%;
+  top: 0.94rem;
+  background-color: #FFF;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0;
+}
+header .menu .item {
+  height: 0.8rem;
+  width: 25%;
+  border-left: 1px solid #fa3432;
+}
+header .menu .item:nth-child(1) {
+  border-left: none;
+}
+header .menu .item .iconfont {
+  color: #fa3432;
+  display: block;
+  margin: 0 auto;
+  width: 0.34rem;
+  height: 0.34rem;
+  font-size: 0.34rem;
+}
+header .menu .item span {
+  display: block;
+  color: #fa3432;
+  text-align: center;
+  font-size: 0.24rem;
+  line-height: 0.46rem;
+}
+.cover {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+.menu.on {
+  display: flex;
+}
+.cover.on {
+  display: block;
+}
+footer {
+  padding-top: 0.45rem;
+  background-color: #FFF;
+  border-top: 1px solid #e6e6e5;
+  height: 1.65rem;
+}
+footer .version {
+  text-align: center;
+  font-size: 0.28rem;
+  color: #494848;
+}
+footer .version a {
+  color: #494848;
+}
+footer .copyright {
+  font-size: 0.28rem;
+  color: #9A9B9C;
+  text-align: center;
+  margin-top: 0.22rem;
+}
+header {
   height: 0.94rem;
   background-color: #fa3432;
   font-size: 0.3rem;
@@ -371,24 +462,4 @@ header .logo a h1 {
   color: #9a9b9c;
   display: flex;
   justify-content: space-between;
-}
-footer {
-  padding-top: 0.45rem;
-  background-color: #FFF;
-  border-top: 1px solid #e6e6e5;
-  height: 1.65rem;
-}
-footer .version {
-  text-align: center;
-  font-size: 0.28rem;
-  color: #494848;
-}
-footer .version a {
-  color: #494848;
-}
-footer .copyright {
-  font-size: 0.28rem;
-  color: #9A9B9C;
-  text-align: center;
-  margin-top: 0.22rem;
 }

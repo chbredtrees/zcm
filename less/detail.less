@@ -1,0 +1,41 @@
+@import 'zcm.less';
+
+.plan{}
+.lv{
+    .h(222);
+    background: linear-gradient(to bottom, #ff3c00 0%,#d80607 100%);
+    p{
+        text-align: center;
+        color: #FFF;
+    }
+    .lx{
+        .fs(68);
+        .pt(50);
+    }
+    .desc{
+        .fs(30);
+        .mt(42);
+    }
+}
+.detaillv{
+    .h(79);
+    border-bottom: 1px solid #f1f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li{
+        width:50%;
+        text-align: center;
+        .fs(30);
+        color: #777;
+        &:nth-child(1){
+            border-right: 1px solid #f1f0f0;
+        };
+    }
+}
+.fadv{
+    .plr(55);
+    .h(203);
+    background: url(../images/detail_icon_bg.png) no-repeat;
+    background-size: 100% 100%;
+}

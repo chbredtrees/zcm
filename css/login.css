@@ -223,3 +223,58 @@ footer .copyright {
   text-align: center;
   margin-top: 0.22rem;
 }
+.loginbox {
+  width: 7rem;
+  margin: 0 auto;
+  padding-bottom: 1.7rem;
+}
+.loginbox img {
+  display: block;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 0 auto;
+  margin-top: 0.58rem;
+  margin-bottom: 0.45rem;
+}
+.loginbox .form .phoneg {
+  position: relative;
+  margin-bottom: 0.23rem;
+}
+.loginbox .form .phoneg .iconfont {
+  position: absolute;
+}
+.loginbox .form label {
+  display: block;
+  font-size: 0.26rem;
+  color: #0e0e0e;
+  margin-bottom: 0.22rem;
+}
+.loginbox .form .phone {
+  font-size: 0.28rem;
+  color: #a2a2a2;
+  height: 0.77rem;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #FFF;
+  text-indent: 0.5rem;
+}
+.loginbox .form .icon-shouji {
+  font-size: 0.56rem;
+  left: 0;
+  top: 0.59rem;
+}
+.loginbox .form .submit {
+  height: 0.8rem;
+  width: 6.92rem;
+  font-size: 0.3rem;
+  color: #FFF;
+  margin: 0 auto;
+  background-color: #fa3432;
+  border-radius: 10px;
+  margin-bottom: 0.22rem;
+}
+.loginbox .form .protocol {
+  font-size: 0.24rem;
+  text-align: center;
+}

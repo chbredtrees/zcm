@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script type="text/javascript">
+			var fs=document.documentElement.clientWidth/750*100;
+			document.querySelector('html').style.fontSize=fs+'px';
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="hnav">
+				<a href="javascript:window.history.back()"><i class="iconfont icon-fanhui"></i></a>
+				<span>验证手机号</span>
+				<i class="iconfont icon-caidan"></i>
+			</div>
+			
+			<div id="menu" class="menu">
+				<a href="/" class="item">
+					<i class="iconfont icon-zhuye"></i>
+					<span>主页</span>
+				</a>
+				<a href="###" class="item">
+					<i class="iconfont icon-suo"></i>
+					<span>安全保障</span>
+				</a>
+				<a href="###" class="item">
+					<i class="iconfont icon-chongzhi"></i>
+					<span>我要投资</span>
+				</a>
+				<a href="###" class="item">
+					<i class="iconfont icon-wode"></i>
+					<span>我的账号</span>
+				</a>
+			</div>
+		</header>
+		<div class="cover"></div>
+		<section class="loginbox">
+			<img src="images/login_img.png"/>
+			<form action="" class="form">
+				<div class="group phoneg">
+					<label for="phone">请输入手机号</label>
+					<input type="text" name="phone" id="phone" class="phone"  placeholder="请输入手机号" />
+					<i class="iconfont icon-shouji"></i>
+				</div>
+				<div class="group">
+					<input type="submit" class="submit" id="submit" cl value="下一步" />
+				</div>
+				<p class="protocol">
+					阅读并同意《招财猫理财用户使用及隐私协议》
+				</p>
+			</form>
+		</section>
+		<footer>
+			<p class="version">
+				<a href="###">触屏版</a>
+				|
+				<a href="###">电脑版</a>
+				|
+				<a href="###">APP下载</a>
+			</p>
+			<p class="copyright">&copy;给我招财的猫 京ICP备00001号</p>
+		</footer>
+		<script src="js/zepto/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zepto/event.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zepto/touch.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//导航
+			$('.icon-caidan').on('tap',function(){
+				if($('#menu').hasClass('on')){
+					$('#menu,.cover').removeClass('on');
+				}else{
+					$('#menu,.cover').addClass('on');
+				}
+			})
+			$('.cover').on('tap',function(){
+				$('#menu,.cover').removeClass('on');
+			})
+			
+		</script>
+	</body>
+</html>
