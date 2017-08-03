@@ -121,7 +121,7 @@
 				function addNumber(){
 					barWidth=$('.prowrap').width();
 					var probarw=$('.probar').width();
-					curnum=(probarw/barWidth*100).toFixed(1);
+					curnum=(probarw/barWidth*100).toFixed(0);
 					$('.pro-block').html(curnum+'%');
 					
 					timerId = requestAnimFrame(function(){
