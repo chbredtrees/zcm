@@ -225,7 +225,7 @@ footer .copyright {
 }
 .plan {
   background-color: #FFF;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.4rem;
 }
 .lv {
   height: 2.22rem;
@@ -330,6 +330,55 @@ footer .copyright {
   height: 0;
   overflow: hidden;
   margin-top: 0.03rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.proccess .monty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #808080;
+  font-size: 0.22rem;
+  margin-top: 0.22rem;
+  padding-bottom: 0.4rem;
+}
+.proccess .monty span {
+  color: #FF0000;
+}
+footer {
+  padding: 0;
+}
+.now {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.05rem;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.36rem;
+  padding-right: 0.15rem;
+  justify-content: space-between;
+}
+.now .gs {
+  font-size: 0.32rem;
+  color: #f90;
+  text-decoration: underline;
+}
+.now .tz {
+  width: 5.17rem;
+  height: 0.82rem;
+  font-size: 0.3rem;
+  background-color: #fa3432;
+  text-align: center;
+  line-height: 0.82rem;
+  color: #FFF;
+}
+.now .detailc {
+  top: -0.4rem;
+  color: #808080;
+  font-size: 0.28rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
